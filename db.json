@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Split Sleeve Solid Top",
+      "image": "https://img.ltwebstatic.com/images2_pi/2019/07/09/1562661262526187349.webp",
+      "price": 8,
+      "category": "Blouses"
+    },
+    {
+      "id": 2,
+      "name": "Floral Print Flounce Sleeve Blouse",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/10/25/166667987540a81e7664cb8853de5e7f8e9cc9e362.webp",
+      "price": 13,
+      "category": "Blouses"
+    },
+    {
+      "id": 3,
+      "name": "Butterfly Velvet Cami Top",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/09/22/1663812957fd67adaa004c1f36e89a4e8785903193.webp",
+      "price": 5.7,
+      "category": "Tank Tops & Camis"
+    },
+    {
+      "id": 4,
+      "name": "Floral Jacquard Shirt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/05/10/1652162557e902a09648d45e5028637435ff2519ea.webp",
+      "price": 14,
+      "category": "Shirts"
+    },
+    {
+      "id": 5,
+      "name": "Vertical Striped Button Up Shirt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/06/01/162252769498935f75e6cc69c73b349f19177ff447.webp",
+      "price": 15,
+      "category": "Shirts"
+    },
+    {
+      "id": 6,
+      "name": "Crisscross Tie Backless Cami Top",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/01/06/160990822211111a3f428f0cc02f0b49ab90e1c0b9.webp",
+      "price": 5,
+      "category": "Tank Tops & Camis"
+    },
+    {
+      "id": 7,
+      "name": "Extended Sizes Ripped Skinny Jeans",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/09/02/1662081557239a2fa1fa03a705ed3d4d56a384fffd.webp",
+      "price": 28,
+      "category": "Jeans"
+    },
+    {
+      "id": 8,
+      "name": "Allover Print Mock Neck Satin Dress",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/08/19/1629339807e432090373311da19ecb4747b41595d9.webp",
+      "price": 10,
+      "category": "Dresses"
+    },
+    {
+      "id": 9,
+      "name": "Drop Shoulder Knot Side Satin Dress",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/09/08/1662616429dde3efa96c3e9e885b43ae03a55c03b0.webp",
+      "price": 18,
+      "category": "Dresses"
+    },
+    {
+      "id": 10,
+      "name": "Mock Neck Textured Bodycon Dress",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/09/13/16315012172f91cdd0fdbf2ddc174375ddb6b8ee59.webp",
+      "price": 18,
+      "category": "Dresses"
+    },
+    {
+      "id": 11,
+      "name": "High Neck Belted Sweatshirt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/09/26/1664202547bcd00298a4012956098b89dec77dea69.webp",
+      "price": 20,
+      "category": "Sweatshirts"
+    },
+    {
+      "id": 12,
+      "name": "High Waist Tropical Thigh Skirt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/12/23/16402555336db915cccf200ace4878f6f10bf71ee1.webp",
+      "price": 14,
+      "category": "Skirts"
+    },
+    {
+      "id": 13,
+      "name": "High Waist Solid Pleated Skirt",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/08/03/1627968289f526e2b65bbc1d1bafeffbb434204b1a.webp",
+      "price": 19,
+      "category": "Skirts"
+    },
+    {
+      "id": 14,
+      "name": "Floral Embroidery Flare Leg Jeans",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/12/30/164082965847d9b3036dc93bb15cab84135d6e80aa.webp",
+      "price": 32,
+      "category": "Jeans"
+    },
+    {
+      "id": 15,
+      "name": "Colorblock Lace-up Front Sneakers",
+      "image": "https://img.ltwebstatic.com/images3_pi/2021/09/13/16315233534203d2c44388320cecc3d8a5ab604be6.webp",
+      "price": 29,
+      "category": "Sneakers"
+    },
+    {
+      "id": 16,
+      "name": "Floral Embroidered Skate Shoes",
+      "image": "https://img.ltwebstatic.com/images3_pi/2022/02/25/16457736555cfe69d160095a0d11e09b312d66759e.webp",
+      "price": 9,
+      "category": "Sneakers"
+    }
+  ]
+}

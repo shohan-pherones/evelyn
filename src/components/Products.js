@@ -45,7 +45,7 @@ const Products = ({ currencyFormatter }) => {
               <img
                 src={product.image}
                 alt={product.name}
-                className="h-full w-full object-cover object-center lg:h-full lg:w-full group-hover:brightness-50 duration-500"
+                className="h-full w-full object-cover object-center lg:h-full lg:w-full group-hover:brightness-50 duration-500 group-hover:scale-105"
               />
               <button
                 onClick={() => handleBuyProduct(product.id)}

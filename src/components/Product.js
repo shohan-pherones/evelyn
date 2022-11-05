@@ -78,19 +78,19 @@ const Product = ({ currencyFormatter }) => {
             </button>
             <div>
               <p className="font-semibold">Description</p>
-              <ul className="text-gray-400">
+              <ul className="text-gray-500">
                 {product.description.map((desc, i) => (
                   <li key={i}>{desc}</li>
                 ))}
               </ul>
             </div>
-            <div className="flex justify-between flex-wrap gap-5 justify-self-center">
-              <div className="flex flex-col bg-gray-200 items-center px-10 py-5 rounded-md border border-gray-300 w-full md:w-auto lg:w-full xl:w-auto">
+            <div className="grid gap-5 grid-cols-1 md:grid-cols-2 text-center">
+              <div className="flex flex-col bg-gray-200 items-center px-10 py-5 rounded-md border border-gray-300">
                 <FaShippingFast />
                 <p className="font-semibold">International delivery</p>
                 <p className="text-gray-400">Get your order in 2 years</p>
               </div>
-              <div className="flex flex-col bg-gray-200 items-center px-10 py-5 rounded-md border border-gray-300 w-full md:w-auto lg:w-full xl:w-auto">
+              <div className="flex flex-col bg-gray-200 items-center px-10 py-5 rounded-md border border-gray-300">
                 <FaMoneyBill />
                 <p className="font-semibold">Loyalty rewards</p>
                 <p className="text-gray-400">Don't look at other products</p>

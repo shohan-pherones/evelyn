@@ -1,9 +1,9 @@
 import Products from "./Products";
 
-const Home = () => {
+const Home = ({ currencyFormatter }) => {
   return (
     <div className="container mx-auto min-h-screen">
-      <Products />
+      <Products currencyFormatter={currencyFormatter} />
     </div>
   );
 };

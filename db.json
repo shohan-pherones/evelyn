@@ -5,7 +5,8 @@
       "name": "Split Sleeve Solid Top",
       "image": "https://img.ltwebstatic.com/images2_pi/2019/07/09/1562661262526187349.webp",
       "price": 8,
-      "category": "Blouses"
+      "category": "Blouses",
+      "description": ["Color: Light"]
     },
     {
       "id": 2,
@@ -26,7 +27,8 @@
       "name": "Floral Jacquard Shirt",
       "image": "https://img.ltwebstatic.com/images3_pi/2022/05/10/1652162557e902a09648d45e5028637435ff2519ea.webp",
       "price": 14,
-      "category": "Shirts"
+      "category": "Shirts",
+      "description": ["Color: Light"]
     },
     {
       "id": 5,

@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-const Products = () => {
+const Products = ({ currencyFormatter }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+
+  const navigate = useNavigate();
 
   const getProducts = async () => {
     try {
@@ -21,11 +24,8 @@ const Products = () => {
     getProducts();
   }, []);
 
-  const currencyFormatter = (price) => {
-    return price.toLocaleString("en-US", {
-      style: "currency",
-      currency: "USD",
-    });
+  const handleBuyProduct = (id) => {
+    navigate(`product/${id}`);
   };
 
   return (
@@ -47,7 +47,10 @@ const Products = () => {
                 alt={product.name}
                 className="h-full w-full object-cover object-center lg:h-full lg:w-full group-hover:brightness-50 duration-500"
               />
-              <button className="absolute top-[50%] left-[50%] uppercase text-gray-100 w-20 h-20 border rounded-full border-gray-100 -translate-x-[50%] -translate-y-[50%] opacity-0 group-hover:opacity-100 duration-500 hover:bg-gray-100 hover:text-gray-700 active:scale-75">
+              <button
+                onClick={() => handleBuyProduct(product.id)}
+                className="absolute top-[50%] left-[50%] uppercase text-gray-100 w-20 h-20 border rounded-full border-gray-100 -translate-x-[50%] -translate-y-[50%] opacity-0 group-hover:opacity-100 duration-500 hover:bg-gray-100 hover:text-gray-700 active:scale-75"
+              >
                 Buy
               </button>
             </div>
